@@ -597,8 +597,8 @@ input[type=checkbox]:checked~.nav-button {
   margin-top 0;
   margin-right: -50px;
   margin-left: -50px;
-  padding-left: 25px;
-  padding-right: 25px;
+  padding-left: 20px;
+  padding-right: 20px;
   margin-bottom: 20px;
 }
 
@@ -849,7 +849,6 @@ input[type=checkbox]:checked~.nav-main-faux-container {
   margin-top: 50px;
   width: 100%;
   bottom: 0;
-  height: 200px;
   background-color: #ececec;
   z-index: 0;
 }
@@ -864,10 +863,9 @@ input[type=checkbox]:checked~.nav-main-faux-container {
 }
 
 .footer-content {
-  height: 100px;
   padding-top: 50px;
   margin-bottom: 0;
-  padding-bottom: 50px;
+  padding-bottom: 20px;
 }
 
 .footer-desc {
@@ -881,12 +879,25 @@ input[type=checkbox]:checked~.nav-main-faux-container {
 }
 
 .footer-logo {
-  height: 75px;
-  width: 100px;
-  margin: 0;
-  margin-top: 25px;
-  position: absolute;
-  display: inline-block;
+  height: 0;
+  width: 0;
+  margin: 0 auto;
+  display: none;
+}
+@media (min-width: 550px) {
+  .footer-logo {
+    float: right;
+    display: block;
+    height: 75px;
+    width: 100px;
+    margin-top: 25px;
+    margin-left: -15px;
+  }
+  .footer-logo-container {
+    display: block;
+    height: 120px;
+    margin-top: 0px;
+  }
 }
 
 .footer-text {
@@ -895,10 +906,7 @@ input[type=checkbox]:checked~.nav-main-faux-container {
 }
 
 .footer-logo-container {
-  height: 120px;
-  display: inline-block;
-  float: right;
-  width: 100px;
+  display: none;
 }
 
 .menu-description {
