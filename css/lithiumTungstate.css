@@ -378,6 +378,19 @@ input[type="button"].button-icon {
   background-position: center;
   background-repeat: no-repeat;
 }
+.button.button-icon-colorless,
+button.button-icon-colorless,
+input[type="submit"].button-icon-colorless,
+input[type="reset"].button-icon-colorless,
+input[type="button"].button-icon-colorless {
+  color: #f5f5f5;
+  width: 5rem;
+  height: 5rem;
+  border-radius: 5rem;
+  background-color: rgba(0, 0, 0, 0);
+  background-position: center;
+  background-repeat: no-repeat;
+}
 
 .button.button-color,
 button.button-color,
@@ -405,6 +418,16 @@ input[type="submit"].button-icon:hover,
 input[type="reset"].button-icon:hover,
 input[type="button"].button-icon:hover {
   background-color: rgba(34, 44, 51, .4);
+  box-shadow: none;
+  padding: 2rem;
+  border-radius: 6rem;
+}
+.button.button-icon-colorless:hover,
+button.button-icon-colorless:hover,
+input[type="submit"].button-icon-colorless:hover,
+input[type="reset"].button-icon-colorless:hover,
+input[type="button"].button-icon-colorless:hover {
+  background-color: rgba(34, 44, 51, 0);
   box-shadow: none;
   padding: 2rem;
   border-radius: 6rem;
