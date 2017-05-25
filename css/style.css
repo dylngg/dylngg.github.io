@@ -1278,3 +1278,21 @@ article {
   background-size: cover;
   background-position: center;
 }
+
+#portfolio-4-2 {
+  height: 500px;
+  background-image: url(../images/martianReplacement.jpg);
+}
+
+#portfolio-6 {
+  height: 500px;
+  background-image: url(../images/martianReplacement.jpg);
+  background-size: cover;
+}
+
+#portfolio-7 {
+  height: 500px;
+  background-image: url(../images/heavyEditingWeb.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
