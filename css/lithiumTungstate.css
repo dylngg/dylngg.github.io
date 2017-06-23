@@ -377,6 +377,7 @@ input[type="button"].button-icon {
   background-color: rgba(0, 0, 0, 0);
   background-position: center;
   background-repeat: no-repeat;
+  padding: 2rem;
 }
 .button.button-icon-colorless,
 button.button-icon-colorless,
@@ -419,7 +420,6 @@ input[type="reset"].button-icon:hover,
 input[type="button"].button-icon:hover {
   background-color: rgba(34, 44, 51, .4);
   box-shadow: none;
-  padding: 2rem;
   border-radius: 6rem;
 }
 .button.button-icon-colorless:hover,
