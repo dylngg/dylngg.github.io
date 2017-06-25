@@ -586,7 +586,11 @@ input[type=checkbox]:checked~.nav-button {
   height: 100%;
   box-sizing: border-box;
   z-index: 1;
-  background-color: rgba(0, 0, 0, .3);
+/*  background-color: rgba(0, 0, 0, .3);*/
+  background-image: -webkit-linear-gradient(to bottom right, rgba(0, 0, 0, .25), rgba(0, 0, 0, 0));
+  background-image: -moz-linear-gradient(to bottom right, rgba(0, 0, 0, .25), rgba(0, 0, 0, 0));
+  background-image: -o-linear-gradient(to bottom right, rgba(0, 0, 0, .25), rgba(0, 0, 0, 0));
+  background-image: linear-gradient(to bottom right, rgba(0, 0, 0, .25), rgba(0, 0, 0, 0));
   position: absolute;
   top: 0;
   z-index: 0;
@@ -595,7 +599,7 @@ input[type=checkbox]:checked~.nav-button {
 
 @media (min-width: 650px) {
   .feature-box-cover {
-    background-color: rgba(0, 0, 0, 0.05);
+/*    background-color: rgba(0, 0, 0, 0.2);*/
     margin-left: -10%;
   }
   .feature-box-cover-wide {
@@ -664,6 +668,7 @@ input[type=checkbox]:checked~.nav-button {
   .feature-details-wide {
     padding-left: 5%;
     padding-right: 5%;
+    margin-left: -5%;
   }
 }
 
