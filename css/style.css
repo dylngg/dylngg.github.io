@@ -529,7 +529,6 @@ input[type=checkbox]:checked~.nav-button {
 }
 
 .main-container {
-  position: relative;
   z-index: 15;
   height: 100%;
   background: none;
@@ -586,7 +585,7 @@ input[type=checkbox]:checked~.nav-button {
   height: 100%;
   box-sizing: border-box;
   z-index: 1;
-/*  background-color: rgba(0, 0, 0, .3);*/
+  /*  background-color: rgba(0, 0, 0, .3);*/
   background-image: -webkit-linear-gradient(to bottom right, rgba(0, 0, 0, .25), rgba(0, 0, 0, 0));
   background-image: -moz-linear-gradient(to bottom right, rgba(0, 0, 0, .25), rgba(0, 0, 0, 0));
   background-image: -o-linear-gradient(to bottom right, rgba(0, 0, 0, .25), rgba(0, 0, 0, 0));
@@ -599,7 +598,7 @@ input[type=checkbox]:checked~.nav-button {
 
 @media (min-width: 650px) {
   .feature-box-cover {
-/*    background-color: rgba(0, 0, 0, 0.2);*/
+    /*    background-color: rgba(0, 0, 0, 0.2);*/
     margin-left: -10%;
   }
   .feature-box-cover-wide {
@@ -1330,4 +1329,11 @@ article {
     max-width: 90%;
     text-align: center;
   }
+}
+
+#feature-experiment-2 {
+  background-image: url(../images/sloppyCalc.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
 }
