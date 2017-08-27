@@ -379,6 +379,7 @@ input[type="button"].button-icon {
   background-repeat: no-repeat;
   padding: 2rem;
 }
+
 .button.button-icon-colorless,
 button.button-icon-colorless,
 input[type="submit"].button-icon-colorless,
@@ -422,6 +423,7 @@ input[type="button"].button-icon:hover {
   box-shadow: none;
   border-radius: 6rem;
 }
+
 .button.button-icon-colorless:hover,
 button.button-icon-colorless:hover,
 input[type="submit"].button-icon-colorless:hover,
