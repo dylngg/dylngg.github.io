@@ -881,7 +881,7 @@ input[type=checkbox]:checked~.nav-main-faux-container {
 }
 
 #photo-1 {
-  height: 300px;
+  height: 400px;
   background-image: url(../images/milkyway.jpg);
   background-size: cover;
   background-repeat: no-repeat;
