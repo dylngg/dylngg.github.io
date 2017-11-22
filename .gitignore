@@ -1,4 +1,4 @@
 .templates
 .DS_Store
-portfolio/*
+portfolio/
 debug.log
