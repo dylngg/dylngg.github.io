@@ -796,6 +796,9 @@ input[type=checkbox]:checked~.nav-main-faux-container {
 .dark-icon {
   background-image: url(../images/leave_page_onsite_dark.svg) !important;
 }
+.dark-icon-outer {
+  background-image: url(../images/leave_page_dark.svg) !important;
+}
 
 .feature-desc {
   box-sizing: border-box;
@@ -916,7 +919,7 @@ input[type=checkbox]:checked~.nav-main-faux-container {
 }
 
 #feature-experiment-1 {
-  background-image: url(../images/css-animations-blank.jpg);
+  background-image: url(../images/blurred-shadow-purple.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: left;
@@ -926,6 +929,7 @@ input[type=checkbox]:checked~.nav-main-faux-container {
   background-image: url(../images/leave_page.svg);
   background-size: 60%;
   background-position: center;
+  opacity: .6;
   float: right;
 }
 
@@ -1328,8 +1332,9 @@ article {
 @media (min-width: 550px) {
   .feature-desc-centered {
     width: 100%;
-    max-width: 90%;
+    max-width: 80%;
     text-align: center;
+    margin: 0 auto;
   }
 }
 
@@ -1352,4 +1357,11 @@ article {
   width: 100%;
   position: relative;
   bottom: 0;
+}
+
+#feature-experiment-3 {
+  background-image: url(../images/css-animations-blank.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: left;
 }
