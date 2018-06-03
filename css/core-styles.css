@@ -478,7 +478,7 @@ input[type=checkbox]:checked~.nav-button {
   padding-top: 150px;
   height: 250px;
   color: #4a5861;
-  margin-bottom: 150px;
+  margin-bottom: 50px;
 }
 @media (min-width: 650px) {
   .intro-bio-container {

@@ -283,22 +283,22 @@ footer {
 }
 
 .footer-phrase {
-	line-height: 136px;
-	text-align: center;
-	color: #efefef;
+  line-height: 136px;
+  text-align: center;
+  color: #efefef;
   z-index: inherit;
   margin-bottom: 0;
 }
 
 .footer-logo {
-	width: 159px;
-	height: 70px;
-	position: absolute;
-	background-image: url(../images/longLogo.svg);
-	background-size: contain;
-	background-repeat: no-repeat;
-	margin-left: 7%;
-	margin-top: 33.1925px;
+  width: 159px;
+  height: 70px;
+  position: absolute;
+  background-image: url(../images/longLogo.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-left: 7%;
+  margin-top: 33.1925px;
   z-index: inherit;
 }
 
