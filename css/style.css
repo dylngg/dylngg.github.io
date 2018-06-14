@@ -3,8 +3,16 @@
   padding-top: 200px;
   margin-bottom: 125px;
 }
+@media (max-width: 550px) {
+  .intro-bio-container {
+    padding-top: 150px;
+  }
+}
 .bio-iam {
-  font-size: 3rem;
+  margin: 0;
+  padding: 0;
+  padding-bottom: .5rem;
+/*  font-size: 3rem;*/
   color: #5D707C;
 }
 .bio-desc {
@@ -44,6 +52,12 @@
   position: relative;
   z-index: 1;
   text-decoration: none;
+}
+@media (max-width: 550px) {
+  .feature-box {
+    height: 350px;
+    margin-bottom: 25px;
+  }
 }
 .feature-container {
   width: 100%;
@@ -97,10 +111,21 @@
   bottom: 0;
   width: 100%;
 }
+@media (max-width: 550px) {
+  .feature-image {
+    background-size: contain;
+    background-position: bottom;
+  }
+}
 .feature1-image {
   height: 175px;
   background-image: url(../images/slcHeatmapBackground.svg);
-  
+}
+@media (max-width: 550px) {
+  .feature1-image {
+    background-size: 110%;
+    background-position: bottom left;
+  }
 }
 #feature1-title {
   background-image: url(../images/slcHeatmapText.svg);
@@ -111,6 +136,12 @@
   max-width: 365px;
   background-image: url(../images/tungstenColorBackground.svg);
   background-position: center;
+}
+@media (max-width: 550px) {
+  .feature2-image {
+    background-size: 90%;
+    background-position: bottom left;
+  }
 }
 
 #feature1-divider {
@@ -131,16 +162,8 @@
 }
 
 .feature-image-shadow {
-  z-index: 4;
   display: none;
   z-index: 0;
-  position: absolute;
-  width: 100%;
-  background-origin: border-box;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: bottom left;
-  bottom: 0;
   -webkit-filter: blur(50px);
   filter: blur(50px);
   box-shadow: inset 0 0 100px #ffffff;
@@ -192,10 +215,17 @@
   background-position: left;
   background-image: url(../images/coldTypePracticeBackground.svg);
 }
+@media (max-width: 550px) {
+  .feature3-image {
+    background-position: top left;
+  }
+}
 
+/*
 #feature3-box {
   display: none;
 }
+*/
 
 #feature-experiment1-title {
   background-image: url(../images/blurredText.svg);
@@ -210,10 +240,15 @@
   background-image: url(../images/blurredBackground.svg);
   background-position: center;
   background-size: 150px 150px;
+  display: block;
+}
+.feature-experiment1-image:hover ~ .feature-image-shadow {
+  -webkit-filter: blur(50px);
+  filter: blur(50px);
 }
 
 .experiment-box {
-  height: 300px;
+  height: 350px;
 }
 
 #feature-experiment2-title {
@@ -234,6 +269,11 @@
   background-position: top left;
   background-size: contain;
   background-size: 55%;
+}
+@media (max-width: 550px) {
+  .feature-experiment2-image {
+    background-size: 65%; 
+  }
 }
 
 .footer-container {
@@ -278,4 +318,15 @@
   margin-top: 25px;
   float: right;
   display: inline-block;
+}
+
+#feature-experiment1-shadow {
+  display: block;
+  -webkit-filter: blur(20px);
+  filter: blur(20px);
+}
+#feature-experiment1-shadow:hover {
+  display: block;
+  -webkit-filter: blur(50px);
+  filter: blur(50px);
 }
