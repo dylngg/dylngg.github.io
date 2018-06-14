@@ -6,200 +6,129 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Dylan Gardner</title>
   <link href="https://fonts.googleapis.com/css?family=Roboto:400,500" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Ubuntu:400" rel="stylesheet">
 
   <link rel="stylesheet" href="css/normalize.min.css">
   <link rel="stylesheet" href="css/lithiumTungstate.min.css"> 
-  <link rel="stylesheet" href="css/core-styles.min.css">
+  <link rel="stylesheet" href="css/menu-style.css">
+  <link rel="stylesheet" href="css/style.css">
 
 </head>
 
 <body>
   <!-- Primary Page Layout -->
   <div class="background">
-    <section class="menu-container full-container">
-      <div class="menu row">
-        <div class="nav-faux-menu twelve column"></div>
-        <div class="nav-container">
-          <input type="checkbox" id="toggle">
-          <label class="nav-button" for="toggle"></label>
-          <div class="nav-main"></div>
-          <div class="nav-main-container">
-            <div class="menu-image"></div>
-            <div class="menu-content">
-              <div class="menu-description">
-                <h6 class="editor-title">About the Picture:</h6>
-                <p class="editor-desc">Sometimes you just need a bit of patriotism in times like these.</p>
-              </div>
+    <section class="menu">
+      <input type="checkbox" id="toggle">
+      <label class="nav-button" for="toggle"></label>
+      <div class="nav-faux-menu">
+        <h5 class="nav-context" id="context-expanding-circle">
+          <a href="../index.html" class="nav-context-link">dylngg.github.io/</a> index.html
+        </h5>
+      </div>
+      <div class="nav-background"></div>
+      <div class="nav-content">
+        <ul class="menu-list">
+          <li class="menu-list-item">
+            <a href="index.html" class="menu-list-item-link">
+              <div class="menu-list-icon home-icon"></div>
+              <h4 class="menu-title menu-list-title link">Home</h4>
+            </a>
+          </li>
+          <li class="menu-list-item">
+            <a class="menu-list-item-link self-link">
+              <div class="menu-list-icon down-icon"></div>
+              <h4 class="menu-title menu-list-title">index.html/</h4>
               <ul class="menu-list">
-                <li class="menu-link">
-                  <span class="list-image" id="github-list-image"></span>
-                  <a href="https://github.com/dylngg/">Github</a>
+                <li class="menu-sub-list-item">
+                  <h4 class="menu-title menu-sub-list-title">
+                    <a href="#intro" class="menu-list-item-link sub-link link">#intro</a>
+                  </h4>
+                </li>
+                <li class="menu-sub-list-item">
+                  <h4 class="menu-title menu-sub-list-title">
+                    <a href="#how-it-works" class="menu-list-item-link sub-link link">#projects</a>
+                  </h4>
+                </li>
+                <li class="menu-sub-list-item">
+                  <h4 class="menu-title menu-sub-list-title">
+                    <a href="#browser-support" class="menu-list-item-link sub-link link">#experiments</a>
+                  </h4>
                 </li>
               </ul>
-            </div>
-            <div class="menu-info">
-              <span>/index.html</span>
-              <br>
-              <br>  
-            </div>
-          </div>
-          <div class="nav-main-faux-container">
-          </div>
-        </div>
+            </a>
+          </li>
+          <li class="menu-list-item">
+            <a href="https://github.com/dylngg" class="menu-list-item-link">
+              <div class="menu-list-icon github-icon"></div>
+              <h4 class="menu-title menu-list-title link">Github</h4>
+            </a>
+          </li>
+        </ul>
       </div>
     </section>
     <section class="main container">
-      <div class="intro-bio-container">
-        <h1 class="bio-intro">I am<br> Dylan Gardner.</h1>
+      <div class="intro-bio-container full-container">
+        <h3 class="bio-iam">I am</h3>
+        <h1 class="bio-intro">Dylan Gardner.</h1>
         <h5 class="bio-desc">I'm a programmer, designer and student attending the University of Utah.</h5>
+        <a href="https://github.com/dylngg" class="bio-github-icon github-icon"></a>
+        <a href="https://github.com/dylngg" class="bio-github">Github</a><br>
         <hr class="section-divider">
       </div>
       <div class="section-declaration row">
-        <h3 class="section-title">Projects</h3>
-        <hr class="section-divider">
+        <h3 class="section-title twelve column">Projects</h3>
       </div>
       <div class="projects-container tweleve row">
         <div class="feature-box one-half columns">
-          <div class="feature-contents" id="feature-project-1">
-            <div class="feature-box-cover"></div>
-            <a class="feature-title" href="https://dylngg.github.io/slc-crime-heatmap">
-              <h3 class="light-text">Salt Lake City Crime Heatmap</h3>
-            </a>
-            <div class="feature-desc">
-              A simple heatmap that shows crime datapoints in Salt Lake City.
-            </div>
-            <div class="feature-details">
-              <a href="https://dylngg.github.io/slc-crime-heatmap" class="feature-link-desc dark-text">
-                /slc-crime-heatmap
-              </a>
-              <a href="https://dylngg.github.io/slc-crime-heatmap" class="button-icon button feature-inner-link inside dark-icon"></a>
-            </div>
-          </div>
+          <div class="project-divider" id="feature1-divider"></div>
+          <a class="feature-container" href="https://dylngg.github.io/slc-crime-heatmap">
+            <div class="feature-title-svg" id="feature1-title"></div>
+            March 2017
+          </a>
+          <a class="feature-image feature1-image" href="https://dylngg.github.io/slc-crime-heatmap"></a>
+          <div class="feature-image feature-image-shadow feature1-image"></div>
         </div>
         <div class="feature-box one-half columns">
-          <div class="feature-contents" id="feature-project-2">
-            <div class="feature-box-cover"></div>
-            <a class="feature-title" href="https://dylngg.github.io/tungsten">
-              <h3 class="light-text">Tungsten.css</h3>
-            </a>
-            <div class="feature-desc">
-              A lightweight css grid framework based off of Skeleton.css.
-            </div>
-            <div class="feature-details">
-              <a href="https://dylngg.github.io/tungsten" class="feature-link-desc light-text">
-                /tungsten
-              </a>
-              <a href="https://dylngg.github.io/tungsten" class="button-icon button feature-inner-link inside"></a>
-            </div>
-          </div>
+          <div class="project-divider" id="feature2-divider"></div>
+          <a class="feature-container" href="https://dylngg.github.io/tungsten">
+            <div class="feature-title-svg" id="feature2-title"></div>
+            April 2018
+          </a>
+          <a class="feature-image feature2-image" href="https://dylngg.github.io/tungsten"></a>
+          <div class="feature-image feature-image-shadow feature2-image"></div>
         </div>
-      </div>
-<!--
-      <div class="projects-container secondary-row row">
-        <div class="feature-box tweleve columns">
-          <div class="feature-contents feature-contents-wide" href="https://github.com/dylngg/polyclipboard" id="feature-project-3">
-            <div class="feature-box-cover feature-box-cover-wide"></div>
-            <a href="https://github.com/dylngg/polyclipboard" class="feature-title feature-title-centered">
-              <h3 class="light-text">PolyClipboard</h3>
-            </a>
-            <div class="feature-desc feature-desc-centered">
-              A simple clipboard application that allows clipboards across multiple devices.
-            </div>
-            <div class="feature-details feature-details-wide">
-              <a href="https://github.com/dylngg/polyclipboard" class="feature-link-desc light-text">
-                github.com
-              </a>
-              <a href="https://github.com/dylngg/polyclipboard" class="button-icon button feature-outer-link"></a>
-            </div>
-          </div>
+        <div class="feature-box one-half columns" id="feature3-box">
+          <div class="project-divider" id="feature3-divider"></div>
+          <a class="feature-container bottom-right" href="https://dylngg.github.io/cold-type-practice">
+            <div class="feature-title-svg" id="feature3-title"></div>
+            June 2018
+          </a>
+          <a class="feature-image feature3-image" href="https://dylngg.github.io/cold-type-practice"></a>
+          <div class="feature-image feature-image-shadow feature3-image"></div>
         </div>
-      </div>
--->
-      <div class="section-declaration row">
-        <h3 class="section-title">Photos &amp; Art</h3>
-        <hr class="section-divider">
-      </div>
-      <div class="photos-container tweleve row">
-        <div class="photo-box one-third column" id="photo-1">
-          <div class="photo-box-description">
-            <a href="images/dylanGardnerMilkyway.jpg" class="button-icon button photo-box-download photo-inside"></a>
-          </div>
-        </div>
-        <div class="photo-box two-thirds column" id="photo-2">
-          <div class="photo-box-description">
-            <a href="images/polyObama.svg" class="button-icon button photo-box-download photo-inside"></a>
-          </div>
-        </div>
-        <!--
-          <div class="photo-box one-third column" id="photo-4">
-            <div class="photo-box-description">
-              <a href="images/tobaccoPoster.jpg" class="button-icon button photo-box-download photo-inside"></a>
-            </div>
-          </div>
-          <div class="photo-box two-thirds column" id="photo-3">
-            <div class="photo-box-description">
-              <a href="images/city.jpg" class="button-icon button photo-box-download photo-inside"></a>
-            </div>
-          </div>
--->
       </div>
       <div class="section-declaration row">
         <h3 class="section-title">Experiments</h3>
-        <hr class="section-divider">
       </div>
       <div class="experiments-container row">
-        <div class="feature-box one-half columns">
-          <div class="feature-contents" id="feature-experiment-1">
-            <div class="feature-box-cover"></div>
-            <a class="feature-title" href="https://dylngg.github.io/pretty-css-animations/blurred-shadow/index.html">
-              <h3 class="dark-text">Blurred Shadow Hover Effect</h3>
-            </a>
-            <div class="feature-desc dark-text">
-              A CSS experiment that demonstrates the ablity to have a hoverable gaussian blur shadow effect.
-            </div>
-            <div class="feature-details">
-              <a href="https://dylngg.github.io/pretty-css-animations/blurred-shadow/index.html" class="feature-link-desc dark-text">
-                 /pretty-css-animations
-              </a>
-              <a href="https://dylngg.github.io/pretty-css-animations/blurred-shadow/index.html" class="button-icon button feature-inner-link inside dark-icon"></a>
-            </div>
-          </div>
+        <div class="feature-box experiment-box one-half columns">
+          <div class="project-divider" id="feature-experiment1-divider"></div>
+          <a class="feature-container" href="https://dylngg.github.io/pretty-css-animations/blurred-shadow">
+            <div class="feature-title-svg" id="feature-experiment1-title"></div>
+            December 2017
+          </a>
+          <a class="feature-image feature-experiment1-image" href="https://dylngg.github.io/pretty-css-animations/blurred-shadow"></a>
+          <div class="feature-image feature-image-shadow feature-experiment1-image"></div>
         </div>
-        <div class="feature-box one-half columns">
-          <div class="feature-contents" id="feature-experiment-2">
-            <div class="feature-box-cover"></div>
-            <a class="feature-title" href="https://github.com/dylngg/sloppyCalc">
-              <h3 class="light-text">Sloppy Calculus</h3>
-            </a>
-            <div class="feature-desc light-text">
-              A simple application that does calculus.
-            </div>
-            <div class="feature-details">
-              <a href="https://github.com/dylngg/sloppyCalc" class="feature-link-desc light-text">
-                github.com
-              </a>
-              <a href="https://github.com/dylngg/sloppyCalc" class="button-icon button feature-outer-link"></a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="experiments-container secondary-row row">
-        <div class="feature-box tweleve columns">
-          <div class="feature-contents feature-contents-wide" id="feature-experiment-3">
-            <div class="feature-box-cover feature-box-cover-wide"></div>
-            <a href="https://dylngg.github.io/pretty-css-animations/expanding-circle-nav/index.html" class="feature-title feature-title-centered">
-              <h3 class="light-text">Expanding Circle Nav</h3>
-            </a>
-            <div class="feature-desc feature-desc-centered">
-              A CSS experiment with a nav that opens up with a expanding circle animation (Just click the menu above!).
-            </div>
-            <div class="feature-details feature-details-wide">
-              <a href="https://dylngg.github.io/pretty-css-animations/expanding-circle-nav/index.html" class="feature-link-desc light-text">
-                /pretty-css-animations
-              </a>
-              <a href="https://dylngg.github.io/pretty-css-animations/expanding-circle-nav/index.html" class="button-icon button feature-inner-link inside"></a>
-            </div>
-          </div>
+        <div class="feature-box experiment-box one-half columns">
+          <div class="project-divider" id="feature-experiment2-divider"></div>
+          <a class="feature-container bottom-right" href="https://dylngg.github.io/pretty-css-animations/expanding-circle-nav">
+            <div class="feature-title-svg" id="feature-experiment2-title"></div>
+            January 2018
+          </a>
+          <a class="feature-image feature-experiment2-image" href="https://dylngg.github.io/pretty-css-animations/expanding-circle-nav"></a>
+          <div class="feature-image feature-image-shadow feature-experiment2-image"></div>
         </div>
       </div>
       <footer class="footer-container">
