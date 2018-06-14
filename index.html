@@ -5,11 +5,12 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Dylan Gardner</title>
-  <link href="https://fonts.googleapis.com/css?family=Roboto:500,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,500" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Ubuntu:400" rel="stylesheet">
 
   <link rel="stylesheet" href="css/normalize.min.css">
   <link rel="stylesheet" href="css/lithiumTungstate.min.css"> 
+  <link rel="stylesheet" href="css/menu-style.css">
   <link rel="stylesheet" href="css/style.css">
 
 </head>
@@ -17,46 +18,62 @@
 <body>
   <!-- Primary Page Layout -->
   <div class="background">
-<!--
-    <section class="menu-container full-container">
-      <div class="menu row">
-        <div class="nav-faux-menu twelve column"></div>
-        <div class="nav-container">
-          <input type="checkbox" id="toggle">
-          <label class="nav-button" for="toggle"></label>
-          <div class="nav-main"></div>
-          <div class="nav-main-container">
-            <div class="menu-image"></div>
-            <div class="menu-content">
-              <div class="menu-description">
-                <h6 class="editor-title">About the Picture:</h6>
-                <p class="editor-desc">Sometimes you just need a bit of patriotism in times like these.</p>
-              </div>
+    <section class="menu">
+      <input type="checkbox" id="toggle">
+      <label class="nav-button" for="toggle"></label>
+      <div class="nav-faux-menu">
+        <h5 class="nav-context" id="context-expanding-circle">
+          <a href="../index.html" class="nav-context-link">dylngg.github.io/</a> index.html
+        </h5>
+      </div>
+      <div class="nav-background"></div>
+      <div class="nav-content">
+        <ul class="menu-list">
+          <li class="menu-list-item">
+            <a href="index.html" class="menu-list-item-link">
+              <div class="menu-list-icon home-icon"></div>
+              <h4 class="menu-title menu-list-title link">Home</h4>
+            </a>
+          </li>
+          <li class="menu-list-item">
+            <a class="menu-list-item-link self-link">
+              <div class="menu-list-icon down-icon"></div>
+              <h4 class="menu-title menu-list-title">index.html/</h4>
               <ul class="menu-list">
-                <li class="menu-link">
-                  <span class="list-image" id="github-list-image"></span>
-                  <a href="https://github.com/dylngg/">Github</a>
+                <li class="menu-sub-list-item">
+                  <h4 class="menu-title menu-sub-list-title">
+                    <a href="#intro" class="menu-list-item-link sub-link link">#intro</a>
+                  </h4>
+                </li>
+                <li class="menu-sub-list-item">
+                  <h4 class="menu-title menu-sub-list-title">
+                    <a href="#how-it-works" class="menu-list-item-link sub-link link">#projects</a>
+                  </h4>
+                </li>
+                <li class="menu-sub-list-item">
+                  <h4 class="menu-title menu-sub-list-title">
+                    <a href="#browser-support" class="menu-list-item-link sub-link link">#experiments</a>
+                  </h4>
                 </li>
               </ul>
-            </div>
-            <div class="menu-info">
-              <span>/index.html</span>
-              <br>
-              <br>  
-            </div>
-          </div>
-          <div class="nav-main-faux-container">
-          </div>
-        </div>
+            </a>
+          </li>
+          <li class="menu-list-item">
+            <a href="https://github.com/dylngg" class="menu-list-item-link">
+              <div class="menu-list-icon github-icon"></div>
+              <h4 class="menu-title menu-list-title link">Github</h4>
+            </a>
+          </li>
+        </ul>
       </div>
     </section>
--->
     <section class="main container">
       <div class="intro-bio-container full-container">
         <h3 class="bio-iam">I am</h3>
         <h1 class="bio-intro">Dylan Gardner.</h1>
         <h5 class="bio-desc">I'm a programmer, designer and student attending the University of Utah.</h5>
-<!--        <a href="https://github.com/dylngg">My Github Page</a><br>-->
+        <a href="https://github.com/dylngg" class="bio-github-icon github-icon"></a>
+        <a href="https://github.com/dylngg" class="bio-github">Github</a><br>
         <hr class="section-divider">
       </div>
       <div class="section-declaration row">
