@@ -17,9 +17,9 @@
 }
 .bio-desc {
   color: #5D707C;
-  padding-top: 25px;
+  padding-top: 5px;
+  margin-bottom: 15px;
   max-width: 550px;
-  font-size: 2.25rem;
   font-weight: 400;
   line-height: 1.4;
 }
@@ -329,4 +329,30 @@
   display: block;
   -webkit-filter: blur(50px);
   filter: blur(50px);
+}
+
+
+
+
+
+.bio-github-icon {
+  height: 35px;
+  width: 35px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url(../images/github-circle-dark.svg);
+  display: inline-block;
+  vertical-align: bottom;
+  padding-right: 5px;
+  margin-bottom: 10px;
+}
+.bio-github-icon:hover {
+  opacity: .5;
+}
+
+
+
+.bio-github {
+  display: inline-block;
+  line-height: 50px;
 }
