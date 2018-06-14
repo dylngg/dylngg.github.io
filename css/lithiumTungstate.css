@@ -42,7 +42,7 @@ Colors
 .container {
   position: relative;
   width: 100%;
-  max-width: 1080px;
+  max-width: 1000px;
   margin: 0 auto;
   padding: 0 20px;
   box-sizing: border-box;
@@ -65,7 +65,7 @@ Colors
   }
   .full-container {
     padding: 0 0px;
-    max-width: 1080px;
+    max-width: 1000px;
   }
 }
 
@@ -215,7 +215,8 @@ body {
   /* currently ems cause chrome bug misinterpreting rems on body element */
   line-height: 1.6;
   font-weight: 400;
-  font-family: "Roboto", Roboto, "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+/*  font-family: "Roboto", Roboto, "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;*/
+  font-family: "Ubuntu", Ubuntu, "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #222c33;
 }
 
@@ -233,6 +234,11 @@ h6 {
   font-weight: 500;
   line-height: 1.2;
   color: #222c33;
+}
+h1,
+h2,
+h3 {
+  font-family: "Roboto", Roboto, "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 h1 {
