@@ -20,6 +20,7 @@
  * Menu Styling
  */
 .menu {
+  display: none;
   z-index: 10;
   height: 100%;  /* Make the nav full screen */
   width: 100%;
