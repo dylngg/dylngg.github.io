@@ -105,6 +105,7 @@
 
 /* Feature Title Styles*/
 .feature-title {
+  font-weight: 3.75rem;
   font-weight: 600;
   box-sizing: border-box;
   text-align: left;
@@ -113,15 +114,39 @@
 }
 #feature1-title {
   color: #EB672E;
+  background: none;
+  background: -moz-linear-gradient(#FF841D, #D64C40);
+  background: -webkit-linear-gradient(#FF841D, #D64C40);
+  background: linear-gradient(to right, #FF841D, #D64C40);
+  background-clip: text !important;
+  -moz-background-clip: text !important;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
 }
 #feature2-title {
   color: #5487F8;
+  background: none;
+  background: -moz-linear-gradient(#269cff, #d64de5);
+  background: -webkit-linear-gradient(#269cff, #d64de5);
+  background: linear-gradient(to right, #269cff, #d64de5);
+  background-clip: text !important;
+  -moz-background-clip: text !important;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
 }
 #feature3-title {
   color: #A3A3A3;
   text-align: right;
   padding-right: 0;
   padding-left: 40%;
+  background: none;
+  background: -moz-linear-gradient(#DCDCDC, #6B6B6B);
+  background: -webkit-linear-gradient(#DCDCDC, #6B6B6B);
+  background: linear-gradient(to right, #DCDCDC, #6B6B6B);
+  background-clip: text !important;
+  -moz-background-clip: text !important;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
 }
 
 /* Feature Image Styles*/
@@ -217,12 +242,28 @@
 /* Specific Experiment Titles */
 #feature-experiment1-title {
   color: #C679D7;
+  background: none;
+  background: -moz-linear-gradient(#DC96B4, #B05CFA);
+  background: -webkit-linear-gradient(#DC96B4, #B05CFA);
+  background: linear-gradient(to right, #DC96B4, #B05CFA);
+  background-clip: text !important;
+  -moz-background-clip: text !important;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
 }
 #feature-experiment2-title {
   color: #26CC95;
   text-align: right;
   padding-right: 0;
   padding-left: 30%;
+  background: none;
+  background: -moz-linear-gradient(#28BFC0, #24D96A);
+  background: -webkit-linear-gradient(#28BFC0, #24D96A);
+  background: linear-gradient(to right, #28BFC0, #24D96A);
+  background-clip: text !important;
+  -moz-background-clip: text !important;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
 }
 
 /* Specific Experiment Dividers*/
