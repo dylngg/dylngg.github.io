@@ -1,44 +1,39 @@
 /* Intro Section */
-.intro-bio-container { padding-top: 200px;
-  margin-bottom: 125px;
+.intro-bio-container {
+  padding-top: 15rem;
+  margin-bottom: 5rem;
+  text-align: center;
 }
 @media (max-width: 550px) {
   .intro-bio-container {
-    padding-top: 150px;
+    padding-top: 10rem;
   }
 }
-.bio-iam {
-  margin: 0;
-  padding: 0;
+.bio-img {
+  margin: 0 auto;
+  margin-bottom: 4rem;
+  width: 150px;
+  height: 165px;
+  background-image: url(../images/profileColor.svg);
+  background-origin: border-box;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.bio-intro {
   padding-bottom: .5rem;
-  color: #5D707C;
 }
 .bio-desc {
   color: #5D707C;
   padding-top: 5px;
   margin-bottom: 15px;
   max-width: 550px;
+  margin: 0 auto;
   font-weight: 400;
   line-height: 1.4;
 }
-.bio-github-icon {
-  height: 35px;
-  width: 35px;
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-image: url(../images/github-circle-dark.svg);
-  display: inline-block;
-  vertical-align: bottom;
-  padding-right: 5px;
-  margin-bottom: 10px;
-}
-.bio-github-icon:hover {
-  opacity: .5;
-}
-
-.bio-github {
-  display: inline-block;
-  line-height: 50px;
+.bio-links {
+  margin-top: 1rem;
 }
 
 /* Section */
@@ -46,8 +41,8 @@
   margin-top: 0;
   margin-top: 15px;
   width: 75px;
-  float: left;
-  margin-bottom: 50px;
+  margin-bottom: 10px;
+  display: block;
 }
 
 .section-title {
