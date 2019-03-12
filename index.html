@@ -5,129 +5,68 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Dylan Gardner</title>
-  <link href="https://fonts.googleapis.com/css?family=Roboto:500,600" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Ubuntu:400" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Ubuntu:400,500" rel="stylesheet">
 
-  <link rel="stylesheet" href="css/normalize.min.css">
-  <link rel="stylesheet" href="css/lithiumTungstate.min.css">
-  <link rel="stylesheet" href="css/menu-style.min.css">
-  <link rel="stylesheet" href="css/style.min.css">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/lithiumTungstate.css">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
   <!-- Primary Page Layout -->
   <div class="background">
-    <section class="menu">
-      <input type="checkbox" id="toggle">
-      <label class="nav-button" for="toggle"></label>
-      <div class="nav-faux-menu">
-        <h5 class="nav-context" id="context-expanding-circle">
-          <a href="../index.html" class="nav-context-link">dylngg.github.io/</a> index.html
-        </h5>
-      </div>
-      <div class="nav-background"></div>
-      <div class="nav-content">
-        <ul class="menu-list">
-          <li class="menu-list-item">
-            <a href="index.html" class="menu-list-item-link">
-              <div class="menu-list-icon home-icon"></div>
-              <h4 class="menu-title menu-list-title link">Home</h4>
-            </a>
-          </li>
-          <li class="menu-list-item">
-            <a class="menu-list-item-link self-link">
-              <div class="menu-list-icon down-icon"></div>
-              <h4 class="menu-title menu-list-title">index.html/</h4>
-              <ul class="menu-list">
-                <li class="menu-sub-list-item">
-                  <h4 class="menu-title menu-sub-list-title">
-                    <a href="#intro" class="menu-list-item-link sub-link link">#intro</a>
-                  </h4>
-                </li>
-                <li class="menu-sub-list-item">
-                  <h4 class="menu-title menu-sub-list-title">
-                    <a href="#projects" class="menu-list-item-link sub-link link">#projects</a>
-                  </h4>
-                </li>
-                <li class="menu-sub-list-item">
-                  <h4 class="menu-title menu-sub-list-title">
-                    <a href="#experiments" class="menu-list-item-link sub-link link">#experiments</a>
-                  </h4>
-                </li>
-              </ul>
-            </a>
-          </li>
-          <li class="menu-list-item">
-            <a href="https://github.com/dylngg" class="menu-list-item-link">
-              <div class="menu-list-icon github-icon"></div>
-              <h4 class="menu-title menu-list-title link">Github</h4>
-            </a>
-          </li>
-        </ul>
-      </div>
-    </section>
     <section class="main container">
       <div class="intro-bio-container full-container" id="intro">
-        <h3 class="bio-iam">I am</h3>
-        <h1 class="bio-intro">Dylan Gardner.</h1>
-        <h5 class="bio-desc">I'm a programmer, coffee lover and 2nd year student studying CS at the University of Utah.</h5>
-        <a href="https://github.com/dylngg" class="bio-github-icon github-icon"></a>
-        <a href="https://github.com/dylngg" class="bio-github">Github</a><br>
+        <div class="bio-img"></div>
+        <h1 class="bio-intro">I'm Dylan Gardner</h1>
         <hr class="section-divider">
+        <h4 class="bio-desc">I'm a programmer, coffee lover and 3rdish year student studying CS at the University of Utah.</h4>
+        <div class="bio-links">
+            <a href="https://github.com/dylngg">Github</a>
+            &nbsp;|&nbsp;
+            <a href="https://dylngg.github.com/weblog">Personal Blog</a>
+        </div>
       </div>
       <div class="section-declaration row" id="projects">
-        <h3 class="section-title twelve column">Projects</h3>
+        <h2 class="section-title twelve column">Projects</h2>
       </div>
       <div class="projects-container tweleve row">
         <div class="feature-box one-half columns">
-          <div class="project-divider" id="feature1-divider"></div>
-          <a class="feature-container" href="https://dylngg.github.io/slc-crime-heatmap">
-            <h2 class="feature-title" id="feature1-title">Salt Lake City Crime Heatmap</h2>
-            March 2017
+          <div class="project-divider" id="feature-discord-divider"></div>
+          <a class="feature-container" href="https://github.com/dylngg/discord-notification-emailer">
+            <h2 class="feature-title" id="feature-discord-title">Discord Notification Emailer</h2>
+            A discord bot that forwards messages to an email.
           </a>
-          <a class="feature-image feature1-image" href="https://dylngg.github.io/slc-crime-heatmap"></a>
-          <div class="feature-image feature-image-shadow feature1-image"></div>
         </div>
         <div class="feature-box one-half columns">
-          <div class="project-divider" id="feature2-divider"></div>
+          <div class="project-divider" id="feature-cold-divider"></div>
+          <a class="feature-container" href="https://dylngg.github.io/cold-type-practice">
+            <h2 class="feature-title" id="feature-cold-title">Cold Type Practice</h2>
+            A cold hard web program for typing practice.
+          </a>
+        </div>
+        <div class="feature-box one-half columns"id="feature-slc-box">
+          <div class="project-divider" id="feature-slc-divider"></div>
+          <a class="feature-container" href="https://dylngg.github.io/slc-crime-heatmap">
+            <h2 class="feature-title" id="feature-slc-title">Salt Lake City Crime Heatmap</h2>
+            A interactive heatmap of crime since 2009 in Salt Lake City, UT.
+          </a>
+          <a class="feature-image feature-slc-image" href="https://dylngg.github.io/slc-crime-heatmap"></a>
+          <div class="feature-image feature-image-shadow feature-slc-image"></div>
+        </div>
+        <div class="feature-box one-half columns">
+          <div class="project-divider" id="feature-wth-divider"></div>
+          <a class="feature-container" href="https://github.com/dylngg/wth">
+            <h2 class="feature-title" id="feature-wth-title">wth.sh</h2>
+            A wrapper script that makes editing, listing, adding and deleting bash scripts for the purpose of record keeping easier.
+          </a>
+        </div>
+        <div class="feature-box one-half columns">
+          <div class="project-divider" id="feature-tungsten-divider"></div>
           <a class="feature-container" href="https://dylngg.github.io/tungsten">
-            <h2 class="feature-title" id="feature2-title">Tungsten.css</h2>
-            April 2018
+            <h2 class="feature-title" id="feature-tungsten-title">Tungsten.css</h2>
+            A simple lightweight grid framework used for this website.
           </a>
-          <a class="feature-image feature2-image" href="https://dylngg.github.io/tungsten"></a>
-          <div class="feature-image feature-image-shadow feature2-image"></div>
-        </div>
-        <div class="feature-box one-half columns" id="feature3-box">
-          <div class="project-divider" id="feature3-divider"></div>
-          <a class="feature-container bottom-right" href="https://dylngg.github.io/cold-type-practice">
-            <h2 class="feature-title" id="feature3-title">Cold Type Practice</h2>
-            June 2018
-          </a>
-          <a class="feature-image feature3-image" href="https://dylngg.github.io/cold-type-practice"></a>
-          <div class="feature-image feature-image-shadow feature3-image"></div>
-        </div>
-      </div>
-      <div class="section-declaration row" id="experiments">
-        <h3 class="section-title">Experiments</h3>
-      </div>
-      <div class="experiments-container row">
-        <div class="feature-box experiment-box one-half columns">
-          <div class="project-divider" id="feature-experiment1-divider"></div>
-          <a class="feature-container" href="https://dylngg.github.io/pretty-css-animations/blurred-shadow">
-            <h2 class="feature-title" id="feature-experiment1-title">Blurred Shadow Hover Effect</h2>
-            December 2017
-          </a>
-          <a class="feature-image feature-experiment1-image" href="https://dylngg.github.io/pretty-css-animations/blurred-shadow"></a>
-          <div class="feature-image feature-image-shadow feature-experiment1-image"></div>
-        </div>
-        <div class="feature-box experiment-box one-half columns">
-          <div class="project-divider" id="feature-experiment2-divider"></div>
-          <a class="feature-container bottom-right" href="https://dylngg.github.io/css-navs/v2">
-            <h2 class="feature-title" id="feature-experiment2-title">Expanding Circle Menu</h2>
-            August 2018
-          </a>
-          <a class="feature-image feature-experiment2-image" href="https://dylngg.github.io/css-navs/v2"></a>
-          <div class="feature-image feature-image-shadow feature-experiment2-image"></div>
         </div>
       </div>
       <footer class="footer-container">
