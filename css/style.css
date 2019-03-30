@@ -142,8 +142,7 @@
   -webkit-background-clip: text !important;
   -webkit-text-fill-color: transparent !important;
 }
-#feature-tungsten-title {
-  width: 250px;
+#feature-ijustwanttowritemd-title {
   color: #C679D7;
   background: none;
   background: -moz-linear-gradient(#DC96B4, #B05CFA);
@@ -225,7 +224,7 @@
 #feature-cold-divider {
   background: linear-gradient(to right, #6B6B6B, #DCDCDC) !important;
 }
-#feature-tungsten-divider {
+#feature-ijustwanttowritemd-divider {
   background: linear-gradient(to right, #DC96B4, #B05CFA) !important;
 }
 #feature-wth-divider {
