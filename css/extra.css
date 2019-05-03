@@ -9,6 +9,12 @@
 #intro hr {
   width: 50px;
 }
+.row .one-half {
+  min-height: 140px;
+}
+.one-half h2 {
+  margin-bottom: 10px;
+}
 #feature-discord-box a {
   color: #5487F8;
   background: none;
