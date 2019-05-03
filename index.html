@@ -5,85 +5,64 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Dylan Gardner</title>
-  <link href="https://fonts.googleapis.com/css?family=Ubuntu:400,500" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
 
   <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/lithiumTungstate.css">
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/justAGrid.min.css">
+  <link rel="stylesheet" href="css/bare-simplicity.css">
+  <link rel="stylesheet" href="css/extra.css">
 </head>
 
-<body>
+<body class="container">
   <!-- Primary Page Layout -->
-  <div class="background">
-    <section class="main container">
-      <div class="intro-bio-container full-container" id="intro">
-        <div class="bio-img"></div>
-        <h1 class="bio-intro">I'm Dylan Gardner</h1>
-        <hr class="section-divider">
-        <h4 class="bio-desc">I'm a programmer, coffee lover and 3rdish year student studying CS at the University of Utah.</h4>
-        <div class="bio-links">
-            <a href="https://github.com/dylngg">Github</a>
-            &nbsp;|&nbsp;
-            <a href="https://dylngg.github.com/weblog">Personal Blog</a>
-        </div>
-      </div>
-      <div class="section-declaration row" id="projects">
-        <h2 class="section-title twelve column">Projects</h2>
-      </div>
-      <div class="projects-container tweleve row">
-        <div class="feature-box one-half columns">
-          <div class="project-divider" id="feature-discord-divider"></div>
-          <a class="feature-container" href="https://github.com/dylngg/discord-notification-emailer">
-            <h2 class="feature-title" id="feature-discord-title">Discord Notification Emailer</h2>
-            A discord bot that forwards messages to an email.
-          </a>
-        </div>
-        <div class="feature-box one-half columns">
-          <div class="project-divider" id="feature-cold-divider"></div>
-          <a class="feature-container" href="https://dylngg.github.io/cold-type-practice">
-            <h2 class="feature-title" id="feature-cold-title">Cold Type Practice</h2>
-            A cold hard web program for typing practice.
-          </a>
-        </div>
-        <div class="feature-box one-half columns"id="feature-slc-box">
-          <div class="project-divider" id="feature-slc-divider"></div>
-          <a class="feature-container" href="https://dylngg.github.io/slc-crime-heatmap">
-            <h2 class="feature-title" id="feature-slc-title">Salt Lake City Crime Heatmap</h2>
-            A interactive heatmap of crime since 2009 in Salt Lake City, UT.
-          </a>
-          <a class="feature-image feature-slc-image" href="https://dylngg.github.io/slc-crime-heatmap"></a>
-          <div class="feature-image feature-image-shadow feature-slc-image"></div>
-        </div>
-        <div class="feature-box one-half columns">
-          <div class="project-divider" id="feature-wth-divider"></div>
-          <a class="feature-container" href="https://github.com/dylngg/wth">
-            <h2 class="feature-title" id="feature-wth-title">wth.sh</h2>
-            A wrapper script that makes editing, listing, adding and deleting bash scripts for the purpose of record keeping easier.
-          </a>
-        </div>
-        <div class="feature-box one-half columns">
-          <div class="project-divider" id="feature-ijustwanttowritemd-divider"></div>
-          <a class="feature-container" href="https://dylngg.github.io/ijustwanttowritemd">
-            <h2 class="feature-title" id="feature-ijustwanttowritemd-title">ijustwanttowritemd</h2>
-            Write markdown. Then publish. Why do static site generators have to be so complicated?
-          </a>
-        </div>
-      </div>
-      <footer class="footer-container">
-        <div class="full-container">
-          <div class="footer-content row">
-            <div class="footer-text seven columns">
-              <h3 class="footer-title">Crafted &amp; Designed by:</h3>
-              <h5 class="footer-desc">Dylan Gardner</h5>
-            </div>
-            <div class="footer-logo-container five columns">
-              <img src="images/logo.svg" class="footer-logo">
-            </div>
-          </div>
-        </div>
-      </footer>
-    </section>
+  <br><br><br>
+  <div id="intro">
+    <img src="images/profileColor.svg" width=140>
+    <h1>I'm Dylan Gardner</h1>
+    <hr>
+    <p>I'm a programmer, coffee lover and 3rdish year student studying CS at the University of Utah.</p>
+    <div class="bio-links">
+        <a href="https://github.com/dylngg">Github</a>
+        &nbsp;|&nbsp;
+        <a href="https://dylngg.github.com/weblog">Personal Blog</a>
+    </div>
   </div>
+  <br>
+  <div class="row">
+    <h2>Projects</h2>
+  </div>
+  <div class="row">
+    <div class="one-half column" id="feature-discord-box">
+      <h2 id="feature-discord-title"><i><a href="https://github.com/dylngg/discord-notification-emailer">Discord Notification Emailer&nbsp;</a></i></h2>
+      A discord bot that forwards messages to an email.
+    </div>
+    <div class="one-half column" id="feature-cold-type-practice-box">
+      <h2 id="feature-cold-title"><i><a href="https://dylngg.github.io/cold-type-practice">Cold Type Practice</a></i></h2>
+      A cold hard web program for typing practice.
+    </div>
+  </div>
+  <div class="row">
+    <div class="one-half column" id="feature-slc-box">
+      <h2 id="feature-slc-title"><i><a href="https://dylngg.github.io/slc-crime-heatmap">Salt Lake City Crime Heatmap</a></i></h2>
+      A interactive heatmap of crime since 2009 in Salt Lake City, UT.
+    </div>
+    <div class="one-half column" id="feature-wth-box">
+      <h2 id="feature-wth-title"><i><a href="https://github.com/dylngg/wth">wth.sh</a></i></h2>
+      A wrapper script that makes editing, listing, adding and deleting bash scripts for the purpose of record keeping easier.
+    </div>
+  </div>
+  <div class="row">
+    <div class="one-half column" id="feature-ijustwanttowritemd-box">
+      <h2 id="feature-ijustwanttowritemd-title"><i><a href="https://dylngg.github.io/ijustwanttowritemd">ijustwanttowritemd</a></i></h2>
+      Write markdown. Then publish. Why do static site generators have to be so complicated?
+    </div>
+  </div>
+  <br>
+  <footer>
+    <h2>Crafted &amp; Designed by:</h2>
+    Dylan Gardner
+  </footer>
+  <br><br>
 </body>
 
 </html>
