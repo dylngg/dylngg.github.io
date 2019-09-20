@@ -70,3 +70,14 @@
   -webkit-background-clip: text !important;
   -webkit-text-fill-color: transparent !important;
 }
+#feature-userctl-box a {
+  color: #1792D6;
+  background: none;
+  background: -moz-linear-gradient(#67D0CD, #1556E0);
+  background: -webkit-linear-gradient(#67D0CD, #1556E0);
+  background: linear-gradient(#67D0CD, #1556E0);
+  background-clip: text !important;
+  -moz-background-clip: text !important;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+}
