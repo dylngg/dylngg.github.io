@@ -15,7 +15,18 @@
 .one-half h2 {
   margin-bottom: 10px;
 }
-#feature-discord-box a {
+#feature-arbiter-box h2 {
+  color: #c84848;
+  background: none;
+  background: -moz-linear-gradient(#8c0808, #ff8383);
+  background: -webkit-linear-gradient(#8c0808, #ff8383);
+  background: linear-gradient(to right, #8c0808, #ff8383);
+  background-clip: text !important;
+  -moz-background-clip: text !important;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+}
+#feature-discord-box h2 {
   color: #5487F8;
   background: none;
   background: -moz-linear-gradient(#269cff, #d64de5);
@@ -26,7 +37,7 @@
   -webkit-background-clip: text !important;
   -webkit-text-fill-color: transparent !important;
 }
-#feature-cold-type-practice-box a {
+#feature-cold-type-practice-box h2 {
   color: #A3A3A3;
   background: none;
   background: -moz-linear-gradient(#6B6B6B, #DCDCDC);
@@ -37,7 +48,7 @@
   -webkit-background-clip: text !important;
   -webkit-text-fill-color: transparent !important;
 }
-#feature-slc-box a {
+#feature-slc-box h2 {
   color: #EB672E;
   background: none;
   background: -moz-linear-gradient(#FF841D, #D64C40);
@@ -48,7 +59,7 @@
   -webkit-background-clip: text !important;
   -webkit-text-fill-color: transparent !important;
 }
-#feature-wth-box a {
+#feature-wth-box h2 {
   color: #67CC3C;
   background: none;
   background: -moz-linear-gradient(#00A877, #CEF000);
@@ -59,7 +70,7 @@
   -webkit-background-clip: text !important;
   -webkit-text-fill-color: transparent !important;
 }
-#feature-ijustwanttowritemd-box a {
+#feature-ijustwanttowritemd-box h2 {
   color: #C679D7;
   background: none;
   background: -moz-linear-gradient(#DC96B4, #B05CFA);
@@ -70,7 +81,7 @@
   -webkit-background-clip: text !important;
   -webkit-text-fill-color: transparent !important;
 }
-#feature-userctl-box a {
+#feature-userctl-box h2 {
   color: #1792D6;
   background: none;
   background: -moz-linear-gradient(#67D0CD, #1556E0);
