@@ -92,3 +92,25 @@
   -webkit-background-clip: text !important;
   -webkit-text-fill-color: transparent !important;
 }
+#feature-arbiterdoom-box h2 {
+  color: #D19429;
+  background: none;
+  background: -moz-linear-gradient(#C95613, #D9D23E);
+  background: -webkit-linear-gradient(#C95613, #D9D23E);
+  background: linear-gradient(#C95613, #D9D23E);
+  background-clip: text !important;
+  -moz-background-clip: text !important;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+}
+#feature-pipelineshell-box h2 {
+  color: #0F3443;
+  background: none;
+  background: -moz-linear-gradient(#34E89E, #0F3443);
+  background: -webkit-linear-gradient(#34E89E, #0F3443);
+  background: linear-gradient(#34E89E, #0F3443);
+  background-clip: text !important;
+  -moz-background-clip: text !important;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+}
