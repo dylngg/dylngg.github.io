@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 480 480" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g transform="matrix(1,0,0,1,0,-540)">
+        <g id="Page-4" serif:id="Page 4" transform="matrix(1,0,0,1,0,540)">
+            <rect x="0" y="0" width="480" height="480" style="fill:none;"/>
+            <g id="Layer-1" serif:id="Layer 1">
+                <path d="M343,404L301,404L301,362L343,362L343,404ZM268.348,338.645C262.9,353.121 255.129,365.502 244.881,375.75C234.748,386.112 222.595,391.856 208.271,397.608C193.986,403.17 178.1,404 160.386,404L76,404L76,171L160.386,171C179.586,171 196.462,174.975 210.938,181.07C225.452,187.242 237.528,196.163 247.205,206.829C256.919,217.382 264.271,230.013 269.071,244.185C273.986,258.47 276.462,273.91 276.462,290.025C276.462,307.929 273.681,324.245 268.348,338.645M0,480L480,480L480,0L0,0L0,480Z" style="fill:rgb(195,195,195);fill-rule:nonzero;"/>
+            </g>
+        </g>
+    </g>
+</svg>
