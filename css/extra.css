@@ -103,3 +103,7 @@
   -webkit-background-clip: text !important;
   -webkit-text-fill-color: transparent !important;
 }
+.center {
+  padding-top: 10px;
+  text-align: center;
+}
