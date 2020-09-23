@@ -15,93 +15,29 @@
 .one-half h2 {
   margin-bottom: 10px;
 }
-#feature-arbiter-box h2 {
+#feature-arbiter-title a, #feature-arbiter-title a:visited {
   color: #c84848;
-  background: none;
-  background: -moz-linear-gradient(#8c0808, #ff8383);
-  background: -webkit-linear-gradient(#8c0808, #ff8383);
-  background: linear-gradient(to right, #8c0808, #ff8383);
-  background-clip: text !important;
-  -moz-background-clip: text !important;
-  -webkit-background-clip: text !important;
-  -webkit-text-fill-color: transparent !important;
 }
-#feature-discord-box h2 {
+#feature-discord-title a, #feature-discord-title a:visited {
   color: #5487F8;
-  background: none;
-  background: -moz-linear-gradient(#269cff, #d64de5);
-  background: -webkit-linear-gradient(#269cff, #d64de5);
-  background: linear-gradient(to right, #269cff, #d64de5);
-  background-clip: text !important;
-  -moz-background-clip: text !important;
-  -webkit-background-clip: text !important;
-  -webkit-text-fill-color: transparent !important;
 }
-#feature-cold-type-practice-box h2 {
+#feature-cold-type-practice-title a, #feature-cold-type-practice-title a:visited {
   color: #A3A3A3;
-  background: none;
-  background: -moz-linear-gradient(#6B6B6B, #DCDCDC);
-  background: -webkit-linear-gradient(#6B6B6B, #DCDCDC);
-  background: linear-gradient(to right, #6B6B6B, #DCDCDC);
-  background-clip: text !important;
-  -moz-background-clip: text !important;
-  -webkit-background-clip: text !important;
-  -webkit-text-fill-color: transparent !important;
 }
-#feature-slc-box h2 {
+#feature-slc-title a, #feature-slc-title a:visited {
   color: #EB672E;
-  background: none;
-  background: -moz-linear-gradient(#FF841D, #D64C40);
-  background: -webkit-linear-gradient(#FF841D, #D64C40);
-  background: linear-gradient(to right, #FF841D, #D64C40);
-  background-clip: text !important;
-  -moz-background-clip: text !important;
-  -webkit-background-clip: text !important;
-  -webkit-text-fill-color: transparent !important;
 }
-#feature-wth-box h2 {
+#feature-wth-title a, #feature-wth-title a:visited {
   color: #67CC3C;
-  background: none;
-  background: -moz-linear-gradient(#00A877, #CEF000);
-  background: -webkit-linear-gradient(#00A877, #CEF000);
-  background: linear-gradient(#00A877, #CEF000);
-  background-clip: text !important;
-  -moz-background-clip: text !important;
-  -webkit-background-clip: text !important;
-  -webkit-text-fill-color: transparent !important;
 }
-#feature-ijustwanttowritemd-box h2 {
+#feature-ijustwanttowritemd-title a, #feature-ijustwanttowritemd-title a:visited {
   color: #C679D7;
-  background: none;
-  background: -moz-linear-gradient(#DC96B4, #B05CFA);
-  background: -webkit-linear-gradient(#DC96B4, #B05CFA);
-  background: linear-gradient(#DC96B4, #B05CFA);
-  background-clip: text !important;
-  -moz-background-clip: text !important;
-  -webkit-background-clip: text !important;
-  -webkit-text-fill-color: transparent !important;
 }
-#feature-userctl-box h2 {
+#feature-userctl-title a, #feature-userctl-title a:visited {
   color: #1792D6;
-  background: none;
-  background: -moz-linear-gradient(#67D0CD, #1556E0);
-  background: -webkit-linear-gradient(#67D0CD, #1556E0);
-  background: linear-gradient(#67D0CD, #1556E0);
-  background-clip: text !important;
-  -moz-background-clip: text !important;
-  -webkit-background-clip: text !important;
-  -webkit-text-fill-color: transparent !important;
 }
-#feature-arbiterdoom-box h2 {
+#feature-arbiterdoom-title a, #feature-arbiterdoom-title a:visited {
   color: #D19429;
-  background: none;
-  background: -moz-linear-gradient(#C95613, #D9D23E);
-  background: -webkit-linear-gradient(#C95613, #D9D23E);
-  background: linear-gradient(#C95613, #D9D23E);
-  background-clip: text !important;
-  -moz-background-clip: text !important;
-  -webkit-background-clip: text !important;
-  -webkit-text-fill-color: transparent !important;
 }
 .center {
   padding-top: 10px;
