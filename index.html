@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="Dylan Gardner's Webpage">
   <title>Dylan Gardner</title>
-  <link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600" rel="stylesheet">
 
   <link rel="stylesheet" href="css/normalize.min.css">
   <link rel="stylesheet" href="css/justAGrid.min.css">
@@ -16,27 +16,27 @@
 
 <body class="container">
   <br><br>
-  <div id="intro">
-    <img alt="Profile image of Dylan Gardner" src="images/profileBland.svg" onmouseover="this.src='images/profileColor2.svg';" onmouseout="this.src='images/profileBland.svg';" width=220>
-    <h1>I'm Dylan Gardner</h1>
-    <hr>
-    <p>I'm a programmer, Linux fanboy, coffee/tea lover and a fourth year undergrad student studying CS at the University of Utah.</p>
-    <div class="bio-links">
-      <a href="https://github.com/dylngg">Github</a>
-      &nbsp;|&nbsp;
-      <a href="https://dylngg.github.com/living">Living Docs</a>
-      &nbsp;|&nbsp;
-      <a href="https://dylngg.github.com/weblog">Blog</a>
+  <div class="row">
+      <div id="intro" class="two-thirds column">
+          <!--<img alt="Profile image of Dylan Gardner" src="images/profileBland.svg" onmouseover="this.src='images/profileColor2.svg';" onmouseout="this.src='images/profileBland.svg';" width=220>-->
+        <h1>Hello there,</h1>
+        <!--<hr>-->
+        <p>I'm a programmer who tries to wear many hats (Linux aficionado, aspiring systems developer, web developer, casual designer, backpacker and cyclist) living in beautiful Salt Lake City, Utah.</p>
+        <div class="bio-links">
+          <a href="https://github.com/dylngg">Github</a>
+          &nbsp;|&nbsp;
+          <a href="https://dylngg.github.io/living">Living Docs</a>
+          &nbsp;|&nbsp;
+          <a href="https://dylngg.github.io/weblog">Blog</a>
+        </div>
     </div>
   </div>
-  <br>
-  <div class="row">
-    <h2>Projects</h2>
-  </div>
+  <br><br>
+  <h2>Projects</h2>
   <div class="row">
     <div class="one-half column" id="feature-arbiter-box">
       <h2 id="feature-arbiter-title"><a href="https://gitlab.chpc.utah.edu/arbiter2/arbiter2">Arbiter&nbsp;</a></h2>
-      A daemon that uses cgroups to monitor and manage user behavior on HPC login nodes. Built at <a href="https://www.chpc.utah.edu">CHPC</a> at the University of Utah. You can read it's paper freely <a href="https://dylngg.github.io/resources/arbiterTechPaper.pdf">on this site</a>.
+      A Linux daemon that uses cgroups to monitor and manage user behavior on HPC login nodes. Built at <a href="https://www.chpc.utah.edu">CHPC</a> at the University of Utah. You can read it's paper freely <a href="https://dylngg.github.io/resources/arbiterTechPaper.pdf">on this site</a>.
     </div>
     <div class="one-half column" id="feature-cold-type-practice-box">
       <h2 id="feature-cold-title"><a href="https://dylngg.github.io/cold-type-practice">Cold Type Practice&nbsp;</a></h2>
@@ -50,28 +50,13 @@
     </div>
     <div class="one-half column" id="feature-discord-box">
       <h2 id="feature-discord-title"><a href="https://github.com/dylngg/discord-notification-emailer">Discord Emailer&nbsp;</a></h2>
-      A discord bot that forwards messages to an email.
+      A discord bot that forwards messages to an email. For those not so important messages that can wait.
     </div>
   </div>
   <div class="row">
     <div class="one-half column" id="feature-ijustwanttowritemd-box">
-      <h2 id="feature-ijustwanttowritemd-title"><a href="https://github.com/dylngg/ijustwanttowritemd">ijustwanttowritemd&nbsp;</a></h2>
-      Write markdown. Then publish. Why do static site generators have to be so complicated?
-    </div>
-    <div class="one-half column" id="feature-wth-box">
-      <h2 id="feature-wth-title"><a href="https://github.com/dylngg/wth">wth.sh&nbsp;</a></h2>
-      A wrapper script that makes editing, listing, adding and deleting bash scripts for the purpose of record keeping easier.
-    </div>
-  </div>
-  <br>
-  <br>
-  <div class="row">
-    <h2>Ongoing Projects</h2>
-  </div>
-  <div class="row">
-    <div class="one-half column" id="feature-userctl-box">
-      <h2 id="feature-userctl-title"><a href="https://github.com/dylngg/userctl">userctl&nbsp;</a></h2>
-      A tool to set configurable and persistent resource controls on users and groups with systemd cgroups.
+      <h2 id="feature-ijustwanttowritemd-title"><a href="https://github.com/dylngg/ijustwanttowritemd">Pinyon&nbsp;</a></h2>
+      A toy kernel targeting the ARMv7 (32-bit) architecture on the Raspberry Pi 2. Supports preemptive scheduling, syscalls and task-specific memory allocation.
     </div>
     <div class="one-half column" id="feature-arbiterdoom-box">
       <h2 id="feature-arbiterdoom-title"><a href="https://github.com/dylngg/arbiterdoom">arbiterdoom&nbsp;</a></h2>
@@ -86,7 +71,7 @@
   <div class="row">
     <div class="twelve columns center">
       <img src="images/newton.svg" alt="Flat Design of Mountains with a House">
-      <span>The background for my <a href="old/index.html">old website</a></span>
+      <span>The background for my <a href="old/index.html">old website</a> built back when I was 15-16</span>
     </div>
   </div>
   <br>
@@ -100,7 +85,7 @@
         <span>Abandoned rooster dashboard logo</span>
     </div>
     <div class="three columns center">
-        <img src="images/logo-square.svg" alt="logo of dylan gardner">
+        <img src="images/logo-square.svg" alt="historical logo of dylan gardner">
         <span>Old personal logo</span>
     </div>
     <div class="three columns center">
@@ -109,6 +94,18 @@
     </div>
   </div>
   <div class="row">
+    <div class="three columns center">
+        <img src="images/profileBland.svg" alt="logo of dylan gardner">
+        <span>New profile picture</span>
+    </div>
+    <div class="three columns center">
+        <img src="images/tableFlippersLogo.svg" alt="logo where table is being flipped">
+        <span>"Table Flippers" school team logo</span>
+    </div>
+    <div class="three columns center">
+        <img src="images/sudoAnalyzer.svg" alt="logo of unlocked lock being uncovered">
+        <span>Logo for a security tool</span>
+    </div>
   </div>
   <br><br>
   <a href="#">goto top;</a>
