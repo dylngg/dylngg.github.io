@@ -13,29 +13,17 @@
 .one-half h2 {
   margin-bottom: 10px;
 }
-#feature-arbiter-title a, #feature-arbiter-title a:visited {
-  color: #c84848;
-}
 #feature-discord-title a, #feature-discord-title a:visited {
   color: #5487F8;
 }
-#feature-cold-type-practice-title a, #feature-cold-type-practice-title a:visited {
+#feature-cold-title a, #feature-cold-title a:visited {
   color: #A3A3A3;
 }
-#feature-slc-title a, #feature-slc-title a:visited {
-  color: #EB672E;
-}
-#feature-wth-title a, #feature-wth-title a:visited {
-  color: #67CC3C;
+#feature-awk-title a, #feature-awk-title a:visited {
+  color: #D24646;
 }
 #feature-pinyon-title a, #feature-pinyon-title a:visited {
   color: #C679D7;
-}
-#feature-userctl-title a, #feature-userctl-title a:visited {
-  color: #1792D6;
-}
-#feature-arbiterdoom-title a, #feature-arbiterdoom-title a:visited {
-  color: #D19429;
 }
 .center {
   padding-top: 10px;
