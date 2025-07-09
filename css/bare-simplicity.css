@@ -1,3 +1,6 @@
+* {
+  font-family: 'Source Sans Pro', sans-serif;
+}
 body {
   margin: 40px auto;
   max-width: 650px;
@@ -22,7 +25,6 @@ h1, h2, h3 {
 hr {
   border: .75px solid #5D707C;
 }
-/*
 @media (prefers-color-scheme: dark) {
     * {
         background-color: #21272B;
@@ -38,4 +40,3 @@ hr {
         border-color: #AAB2B7;
     }
 }
-*/
